@@ -13,7 +13,7 @@ from sklearn import metrics, model_selection, linear_model
 # Data we are using from kaggle, https://www.kaggle.com/datasets/parulpandey/palmer-archipelago-antarctica-penguin-data
 # Data is wrangled by truncating the sex and island column. Sex is indicated by beak size, and island is unknown in
 #   this scenario
-penguin_data = "https://raw.githubusercontent.com/HiepHPham/MachineLearningModel/penguins_data_set.csv"
+penguin_data = "https://raw.githubusercontent.com/HiepHPham/MachineLearningModel/main/penguins_data_set.csv"
 print("\n-----------------")
 print("Penguin data has been pulled from kaggle.")
 # Set headers for the data_set:
